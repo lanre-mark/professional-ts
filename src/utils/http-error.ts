@@ -25,7 +25,7 @@ function determineKind(status: number): HTTPErrorKind {
 
 /** @param {HTTPErrorKind} kind */
 export default class HTTPError extends Error {
-  kind
+  kind: any;
   /**
    *
    * @param info
