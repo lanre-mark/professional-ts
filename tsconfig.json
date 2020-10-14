@@ -11,6 +11,10 @@
     "declaration": true,
     "jsx": "react",
     "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"]
+    },
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
